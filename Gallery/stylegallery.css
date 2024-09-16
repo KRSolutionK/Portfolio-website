@@ -45,7 +45,6 @@ body{
         top: 100px;
         left: 500px;
         background: transparent;
-
         font-family: 'Times New Roman', Times, serif;
         height: 100%;
         width: 100%;
@@ -60,16 +59,16 @@ body{
         width:fit-content;
         height: fit-content;
         border-radius: 10px;
-    border: 5px solid #0011ff; 
-    padding: 10px; 
-    display: inline-block;
-    text-align: center;
-    margin: 20px; 
-    background-image: linear-gradient( to bottom right, rgba(0, 247, 255, 0.795),rgba(135, 69, 227, 0.614));
+        border: 5px solid #0011ff; 
+        padding: 10px; 
+        display: inline-block;
+        text-align: center;
+        margin: 20px; 
+        background-image: linear-gradient( to bottom right, rgba(0, 247, 255, 0.795),rgba(135, 69, 227, 0.614));
 }
 .btn:hover{
     border-color: rgb(255, 0, 0); /* Neon border color */
-    text-shadow: 0 0 10px rgb(13, 255, 70), 0 0 20px rgb(69, 255, 7), 0 0 30px rgb(15, 255, 39), 0 0 40px #0ff;
+    text-shadow: 0 0 10px rgb(225, 255, 0), 0 0 20px rgb(225, 255, 0), 0 0 30px rgb(225, 255, 0), 0 0 40px rgb(225, 255, 0);
 }
 .btn1{
     text-decoration: none;
@@ -78,7 +77,6 @@ body{
     left: 530px;
     font-family: 'Times New Roman', Times, serif;
     background: transparent;
-
     height: 100%;
     width: 100%;
      color:rgb(255, 128, 0);
@@ -101,7 +99,7 @@ body{
 }
 .btn1:hover{
     border-color: rgb(255, 0, 0); /* Neon border color */
-    text-shadow: 0 0 10px rgb(13, 255, 70), 0 0 20px rgb(69, 255, 7), 0 0 30px rgb(15, 255, 39), 0 0 40px #0ff;
+    text-shadow: 0 0 10px rgb(225, 255, 0), 0 0 20px rgb(225, 255, 0), 0 0 30px rgb(225, 255, 0), 0 0 40px rgb(225, 255, 0);
 }
  
  
@@ -112,25 +110,54 @@ body{
 @media only screen and (max-width: 600px){
 
 .btn{
-    top: 335px;
-    left: 100px;
+    top: 250px;
+    left: 70px;
     -webkit-text-stroke: 2.5px rgb(255, 0, 0);
     font-size: 50px;
     font-weight: 450;
     border-radius: 5px;
+    background: transparent;
     font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient( to bottom right, rgba(0, 247, 255, 0.795),rgba(135, 69, 227, 0.614));
 }
+.btn:hover{
+    border-color: rgb(255, 0, 0); /* Neon border color */
+    text-shadow: 0 0 10px rgb(225, 255, 0), 0 0 20px rgb(225, 255, 0), 0 0 30px rgb(225, 255, 0), 0 0 40px rgb(225, 255, 0);
+}
+ 
 .btn1{
-    top: 410px;
-    left: 115px;
+    top: 355px;
+    left: 80px;
     -webkit-text-stroke: 2.5px rgb(255, 0, 0);
     font-size: 50px;
     font-weight: 450;
     border-radius: 5px;
     font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient( to bottom right, rgba(0, 247, 255, 0.795),rgba(135, 69, 227, 0.614));
 
 }
+.btn1:hover{
+    border-color: rgb(255, 0, 0); /* Neon border color */
+    text-shadow: 0 0 10px rgb(225, 255, 0), 0 0 20px rgb(225, 255, 0), 0 0 30px rgb(225, 255, 0), 0 0 40px rgb(225, 255, 0);
+}
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
 
+#bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+}
 
 
 
