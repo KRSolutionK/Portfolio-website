@@ -489,7 +489,7 @@ nav .fas{
         font-size: 25px;
     }
     nav ul{
-        background: blue;
+        background: rgba(0, 0, 0, 0.393);
         position: fixed;
         top: 0;
         right: -200px;
